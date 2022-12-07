@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(52, 52, 52);
+}
+button {
+    background-color: rgb(52, 52, 52);
+    border: none;
+}
+h1 {
+    color: rgb(21, 226, 158);
+    font-size: 8rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+h3 {
+    color: rgb(21, 226, 158);
+    font-size: 2rem;
+}
+h5 {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+h6 {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.rolling {
+    margin: auto 25%;
+}
+.p1Dice {
+    padding: 50px;
+}
+.p2Dice {
+    padding: 50px;
+}
+
+#p1 {
+    margin: 25px 50px;
+    text-align: center;
+}
+#p2 {
+    text-align: center;
+}
+.p1Dice:hover {
+    width: 85%;
+    cursor: pointer;
+    transform: rotate(5deg);
+}
+.p2Dice:hover {
+    width: 85%;
+    cursor: pointer;
+    transform: rotate(5deg);
+}
